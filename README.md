@@ -1,13 +1,18 @@
 # swift_twine_formatter [![Gem Version](https://badge.fury.io/rb/swift_twine_formatter.svg)](https://badge.fury.io/rb/swift_twine_formatter)
 [Twine](https://github.com/scelis/twine) plugin to generate .strings files with swift (SwiftGen compatible) comments and marks format.
 
-_Example usage_
+__Example usage__
 
+_Simple swift formatter:_
 ```ruby
 twine generate-string-file /path/to/twine.txt /path/to/output_en.strings --format swift --lang en
 ```
+_Swift formatter with '%' escaping ('%' -> '%%') for SwiftGen:_
+```ruby
+twine generate-string-file /path/to/twine.txt /path/to/output_en.strings --format swift-escaping --lang en
+```
 
-_Output file:_
+__Output file:__
 ```strings
 //
 // Apple Strings File

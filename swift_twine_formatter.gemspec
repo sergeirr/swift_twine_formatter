@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name          = 'swift_twine_formatter'
-  s.version       = '0.1.0'
-  s.date          = '2023-08-01'
+  s.version       = '0.2.0'
+  s.date          = '2023-08-02'
   s.license       = 'MIT'
-  s.summary       = 'Plugin to generate .strings files with swift (SwiftGen compatible) comments and marks format'
+  s.summary       = 'Plugin to generate .strings files with swift (SwiftGen compatible) comments and marks format, and escaping percent symbol'
   s.description   = s.summary + '.'
   s.authors       = ['Sergei Romashenko']
   s.email         = ['romashenko.sergey@gmail.com']
